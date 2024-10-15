@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #000000;
+    user-select: none;
+    color: #444444;
+    margin: 0;
+    height: 100%;
+}
+
+.mainframe {
+    cursor: none;
+    border: 1px solid #444444;
+    width: 100%;
+    height: 100%;
+}
+
+.panel {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #444444;
+}
+
+input {
+    border-radius: 0;
+    border: none;
+    background-color: #444444;
+    color: rgb(131, 131, 131);
+}
